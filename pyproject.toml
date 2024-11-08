@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "azdotui"
+version = "0.0.1"
+description = "Azure Devops TUI"
+dependencies = [
+    "aiohttp",
+    "python-dateutil",
+]
+
+requires-python = ">= 3.10"
+authors = [
+  {name = "Liberis Patoucheas", email = "libpatouch@gmail.com"},
+]
+maintainers = [
+  {name = "Liberis Patoucheas", email = "libpatouch@gmail.com"}
+]
+readme = "README.md"
+license = {text = "MIT License"}
+
+[project.scripts]
+azdotui = "azdotui.main:main_entry"
+
+[project.urls]
+Repository = "https://github.com/Liberis/azdotui.git"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/azdotui"]
+

@@ -1,0 +1,87 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Setuptools specific files
+*.manifest
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment variables / configuration
+.env
+.env.*
+.venv
+venv/
+ENV/
+env/
+*.env
+
+# PyInstaller
+# Usually contains a lot of files and folders specific to the machine running PyInstaller
+*.spec
+
+# Cython debug symbols
+cython_debug/
+
+# Log files
+*.log
+
+# IDE / editor configurations
+.vscode/
+.idea/
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+*.bak
+
+# Generated documentation
+docs/_build/
+
+# Additional directories
+src/__pycache__/
+*.egg-info/
+*.egg
+*.manifest
+
